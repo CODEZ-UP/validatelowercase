@@ -1,0 +1,38 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.valid{
+  color: green;
+}
+
+.error{
+  color: red;;
+}
+
+input, label {
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:disabled{
+  background-color: #757575ab; /* Green */
+}
